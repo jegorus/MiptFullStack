@@ -1,0 +1,25 @@
+.header {
+  height: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.headerButtonLocation {
+  display: inline;
+  float: right;
+  padding-top: 10px;
+  margin-right: 40px;
+}
+
+.aboutUsLocation {
+  display: inline;
+  margin-right: 40px;
+}
+
+.headerBottomLine {
+  margin-top: 0 px;
+  padding-top: 0px;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+}

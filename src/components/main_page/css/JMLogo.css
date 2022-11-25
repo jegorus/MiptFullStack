@@ -1,0 +1,65 @@
+:root {
+  --jm-logo-circle-outer: 500px;
+  --jm-logo-circle-width: 15px;
+  --jm-logo-line-width: 8px;
+}
+
+.JMLogoGeneral {
+  display: grid;
+}
+
+.JMLogoOuterCircle,
+.JMLogoJM,
+.JMLogoJegorMusic,
+.JMLogoTopLine,
+.JMLogoBottomLine {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.JMLogoOuterCircle {
+  width: var(--jm-logo-circle-outer);
+  height: var(--jm-logo-circle-outer);
+  background-color: transparent;
+  border-color: white;
+  border: var(--jm-logo-circle-width) solid white;
+  border-radius: 50%;
+}
+
+.JMLogoJM {
+  margin-top: -40px;
+  margin-left: 110px;
+  font-family: "Colonna MT";
+  font-size: 270px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.JMLogoJegorMusic {
+  margin-top: 260px;
+  margin-left: 20px;
+
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 75px;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.JMLogoTopLine {
+  margin-top: 230px;
+  margin-left: 130px;
+  height: var(--jm-logo-line-width);
+  width: 260px;
+
+  background-color: white;
+}
+
+.JMLogoBottomLine {
+  margin-top: 355px;
+  margin-left: 30px;
+  height: var(--jm-logo-line-width);
+  width: 440px;
+  background-color: white;
+}
