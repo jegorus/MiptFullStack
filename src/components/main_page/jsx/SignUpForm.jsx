@@ -31,7 +31,7 @@ class SignUpForm extends Component {
             <div className="formLine"></div>
           </label>
           <div className="submitLocation">
-            <Link to="/aboutUs">
+            <Link to="../toProfile">
               <input type="submit" value="Sign up" className="whiteButton" />
             </Link>
           </div>

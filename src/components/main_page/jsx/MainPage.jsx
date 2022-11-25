@@ -17,7 +17,7 @@ import SignInForm from "./SignInForm.jsx";
 class MainPage extends Component {
   render() {
     return (
-      <div>
+      <div className="gradBackground">
         <header>
           <Header></Header>
         </header>

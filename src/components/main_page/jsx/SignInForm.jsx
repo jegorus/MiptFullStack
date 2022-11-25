@@ -23,7 +23,7 @@ class SignInForm extends Component {
             <div className="formLine"></div>
           </label>
           <div className="submitSignInLocation">
-            <Link to="/aboutUs">
+            <Link to="../toProfile">
               <input type="submit" value="Sign in" className="whiteButton" />
             </Link>
           </div>
